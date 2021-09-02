@@ -1,0 +1,43 @@
+body.non-game-page, .non-game-page .fixed-background-container {
+    color: rgba(255, 255, 255, .9);
+    background-color: #1F221D;
+    background-image: linear-gradient(to right, #6FA92E, #9DA92E);
+    text-align: center;
+}
+
+.non-game-page a.play-link:link, .non-game-page a.play-link:visited, .non-game-page a.play-link:active {
+    display: inline-block;
+    color: #000;
+    background-color: rgba(255, 255, 255, .9);
+    font-family: lato, sans-serif;
+    font-size: 12pt;
+    font-weight: 500;
+    line-height: 13.5pt;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: .5em 0;
+    padding: 4px 12px;
+}
+
+.non-game-page .logo-huge {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.non-game-page .logo-tagline {
+    margin: 1em;
+}
+
+.logo-huge {
+    font-family: 'Bree Serif', 'Roboto Slab', serif;
+    font-weight: normal;
+    font-size: 72pt;
+    line-height: 88pt;
+}
+
+.logo-tagline {
+    font-family: lato, sans-serif;
+    font-size: 16pt;
+    font-weight: normal;
+    line-height: 16pt;
+}

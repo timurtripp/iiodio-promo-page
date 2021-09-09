@@ -9,21 +9,35 @@ body.non-game-page, .non-game-page .fixed-background-container {
     display: inline-block;
     color: #000;
     background-color: rgba(255, 255, 255, .9);
-    font-family: lato, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40pt;
     font-weight: 500;
     line-height: 13.5pt;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 20px;
     margin: .5em 0;
     padding: 40px;
-    width: 300px;
-    height: 50px
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    right: 60pt;
+    top: 400pt;
+}
+.non-game-page .multilang{
+    font-size :30pt;
+}
+.non-game-page .icone{
+    border-radius: 30px;
+    margin-top: 60px;
+    width: 25%;
+    height:25%;
+    border-radius: 30px;
 }
 
 .non-game-page .logo-huge {
-    margin-top: 25px;
+    margin-top: 30px;
     margin-bottom: 0;
+    font-size: 85pt;
 }
 
 .non-game-page .logo-tagline {
@@ -44,7 +58,10 @@ body.non-game-page, .non-game-page .fixed-background-container {
     line-height: 16pt;
 }
 
-img {
-    width:20%;
-    height:20%
+.description{
+    position: absolute;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 60pt;
+    top: 20pt;
+    font-size: 50pt;
 }

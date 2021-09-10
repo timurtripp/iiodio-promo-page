@@ -50,6 +50,7 @@ body.non-game-page, .non-game-page .fixed-background-container {
     font-weight: normal;
     font-size: 72pt;
     line-height: 88pt;
+    text-shadow: -1px 1px 8px rgba(0,0,0,0.48);
 }
 
 .logo-tagline {
